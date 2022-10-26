@@ -1,0 +1,30 @@
+@use "variables" as var;
+@use "mixins";
+@use "navbar" as nav;
+
+.topMenu {
+    
+ 
+   
+}
+.leftMainPage{
+    background-color: var.$primary;
+    height: 100vh;
+    @include mixins.desktop{
+    
+      }
+}
+.rightMainPage {
+    background-color: var.$primary;
+    height: 100vh;
+    @include mixins.desktop{
+        background-color:honeydew;
+        
+        
+      }
+}
+
+.footer {
+    background-color: black;
+    height: 15vh;
+}

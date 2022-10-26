@@ -1,0 +1,32 @@
+@use "mixins";
+@use "variables" as var;
+
+.navbar-brand {
+    display: none;
+}
+.navbar-toggler {
+    color: var.$secondary;
+    margin-left: 8px;
+    border: solid 1px;
+    border-radius: 0%;
+}
+.form-control {
+    width: 83vw;
+    height: 40px;
+    border-radius: 0%;
+    border: solid var.$secondary;
+}
+.searchBtn {
+    margin-left: -86px;
+    border-radius: 0%;
+}
+.navbar-nav > a {
+    color: var.$third;
+    padding-left: 10px;
+}
+a:hover {
+    color: black;
+}
+#navbarNavAltMarkup {
+    border:none;
+}
